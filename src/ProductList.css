@@ -163,6 +163,7 @@ body {
 .cart{
     color: white;
     display: flex;
+    position: relative; /* 🔥 THIS IS REQUIRED */
 }
 .cart_quantity_count{
     margin-top: 16px;
@@ -170,6 +171,7 @@ body {
     margin-left: 27px;
     position: absolute;
     font-size: 29px;
+    top: 16px;
 
 }
 .plantname_heading{
